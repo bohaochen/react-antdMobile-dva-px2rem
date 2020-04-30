@@ -1,0 +1,80 @@
+.headerWrap {
+  background-color: #fff;
+  .logoWrap {
+    padding: 12px 0 0 37px;
+    font-size: 14px;
+    .logo {
+      height: 47px;
+      width: 83px;
+    }
+    :global(.ant-divider) {
+      width: 2px;
+      height: 18px;
+      margin: 0 14px;
+      background: rgba(140,160,179,0.4);
+    }
+  }
+  .dropBtn {
+    cursor: default;
+    color: #8CA0B3;
+    font-size: 16px;
+    &:hover {
+      color: #2E83E3;
+    }
+    :global(.anticon) {
+      margin-left: 8px;
+      font-size: 18px;
+    }
+  }
+  .toolbar {
+    margin: 18px 80px 0;
+    float: right;
+    i {
+      cursor: pointer;
+      margin-left: 50px;
+      font-size: 24px;
+      vertical-align: bottom;
+      color: #8CA0B3;
+    }
+  }
+  .userWrap {
+    display: flex;
+    float: right;
+    height: 60px;
+    dl {
+      margin-top: 10px;
+      flex: 1;
+      text-align: right;
+      dt {
+        font-size: 16px;
+        color: #556677;
+      }
+      dd {
+        font-size: 12px;
+        color: #8CA0B3;
+      }
+    }
+    img {
+      margin-left: 20px;
+      width: 60px;
+      height: 60px;
+    }
+  }
+}
+.systemListWrap {
+  padding: 50px 20px;
+  background-color: rgba(255,255,255,0.9);
+  box-shadow:0px 2px 7px 0px rgba(43,94,181,0.1);
+  ul {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    text-align: center;
+    li {
+      list-style: none;
+      width: 33%;
+    }
+  }
+}
