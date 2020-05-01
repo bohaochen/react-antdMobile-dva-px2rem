@@ -12,6 +12,7 @@ module.exports = {
     alias: {
         "common": require('path').resolve(__dirname, '../src/common'),
         "@routes":path.resolve(__dirname, "../src/routes"),
+        "@constants":path.resolve(__dirname, "../src/constants.js"),
         "@utils":path.resolve(__dirname, "../src/utils"),
         "@components":path.resolve(__dirname, "../src/components"),
         "@models":path.resolve(__dirname, "../src/models"),
