@@ -1,5 +1,4 @@
 import { encode, decode } from 'base64-utf8';
-// import { tools as acTools } from '@dd01fe/admin-center';
 
 const sessionId = 'userInfo';
 
